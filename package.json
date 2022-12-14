@@ -2,11 +2,11 @@
   "author": "Dominic Tarr <dominic.tarr@gmail.com> (dominictarr.com)",
   "name": "react-native-crypto",
   "description": "implementation of crypto for React Native",
-  "version": "2.2.0",
+  "version": "2.2.2",
   "homepage": "https://github.com/tradle/react-native-crypto",
   "repository": {
     "type": "git",
-    "url": "git://github.com/tradle/react-native-crypto.git"
+    "url": "https://github.com/tangkunyin/react-native-crypto"
   },
   "scripts": {
     "standard": "standard",
@@ -29,7 +29,7 @@
     "randomfill": "^1.0.3"
   },
   "peerDependencies": {
-    "react-native-randombytes": ">=2.0.0 <4.0.0"
+    "react-native-get-random-values": ">=1.8.0 <4.0.0"
   },
   "devDependencies": {
     "hash-test-vectors": "~1.3.2",

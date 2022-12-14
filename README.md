@@ -20,8 +20,8 @@ A suggested workflow:
   ```sh
   npm i --save react-native-crypto
   # install peer deps
-  npm i --save react-native-randombytes
-  react-native link react-native-randombytes # on RN >= 0.60, instead do: cd iOS && pod install
+  npm i --save react-native-get-random-values
+  react-native link react-native-get-random-values # on RN >= 0.60, instead do: cd iOS && pod install
   # install latest rn-nodeify
   npm i --save-dev rn-nodeify
   # install node core shims and recursively hack package.json files
